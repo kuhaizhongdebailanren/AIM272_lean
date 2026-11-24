@@ -1,0 +1,90 @@
+AIM 272 Lean verification
+Lean (version 4.24.0, x86_64-w64-windows-gnu, commit 797c613eb9b6d4ec95db23e3e00af9ac6657f24b, Release)
+mathlib f897ebcf72cd16f89ab4577d0c826cd14afaafc7
+Build completed successfully (7392 jobs).
+The Windows build used a local Lake package-path override for the pinned sources.
+
+Root #print axioms output (56 declarations)
+'AIM272Rational.rational_points' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272Unusable.dickson' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272Unusable.unusable_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272Unusable.unusable_outside_shell' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272Witness.bounded_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272Witness.minimal_peak' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.fastCopyPreservesLayer' does not depend on any axioms
+'AIM272.rankedClockLowerBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272Affine.exists_good_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272Affine.uniform_property' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272Translation.affine_max_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272Geometry.shell_faces_usable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272Analytic.scale_choice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.aim272Conditional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.t0_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.t0_transition_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.transition_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.occupation_total_on_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.directional_bounded_witness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.negativeLoop_of_usable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.descent_depth_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.psi_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.levels_on_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.relativeOrders_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.level_drop_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.bounded_static_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.entranceTarget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.coordinatewise_descent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.localPotential_poisson' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.localPotential_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.t2_of_t1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.returnMass_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.occupation_invariant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.physicalOccupation_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.normalizedOccupation_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.level_on_growth_ray' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.level_range_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.timeChanged_label_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.reverse_or_reach_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.lower_target_reachable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.actual_sampling_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.RankedRace.observe_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.RankedRace.observedSurvival_drift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.clockMean_balance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.localPotential_eventually_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.shell_potential_eventually' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.pointwise_return_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.excursion_bound_of_stopped_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.shell_occupation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.continuousTime_of_finite_return' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.normalized_factorial_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.t1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.t2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.t3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.t3_finite_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AIM272.Network.t3_absorbing_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+Final theorem signatures from #check
+AIM272.Network.t0_transition_closed {κ L : Type} (N : AIM272.Network κ L) [Fintype κ] [Fintype L]
+  (wr : N.WeaklyReversible) (o : AIM272.State κ) {x y : AIM272.State κ} (hx : x ∈ AIM272Unusable.Γ N.toRxn o)
+  (hxy : 0 < N.transition x y) : y ∈ AIM272Unusable.Γ N.toRxn o
+AIM272.Network.t1 {κ L : Type} [Fintype κ] [Fintype L] (N : AIM272.Network κ L) (wr : N.WeaklyReversible)
+  (o : AIM272.State κ) : N.FactorialBound o
+AIM272.Network.t2 {κ L : Type} [Fintype κ] [Fintype L] (N : AIM272.Network κ L) (wr : N.WeaklyReversible)
+  (o : AIM272.State κ) : N.expectedReturnJumps o < ⊤
+AIM272.Network.t3 {κ L : Type} [Fintype κ] [Fintype L] (N : AIM272.Network κ L) (wr : N.WeaklyReversible)
+  (o : AIM272.State κ) (hi : (AIM272Unusable.Γ N.toRxn o).Infinite)
+  (norris : AIM272.ContinuousTime.NorrisJumpReturn (AIM272.State κ)) :
+  AIM272.ContinuousTime.NonexplosiveOn N.transition N.totalRate (AIM272Unusable.Γ N.toRxn o) ∧
+    AIM272.ContinuousTime.PositiveRecurrentOn N.transition N.totalRate (AIM272Unusable.Γ N.toRxn o) N.aliveMass ∧
+      AIM272.ContinuousTime.StationaryOn N.transition N.totalRate (AIM272Unusable.Γ N.toRxn o)
+          (N.normalizedOccupation o) ∧
+        (∀ (π : AIM272.State κ → ENNReal),
+            AIM272.ContinuousTime.StationaryOn N.transition N.totalRate (AIM272Unusable.Γ N.toRxn o) π →
+              π = N.normalizedOccupation o) ∧
+          ∀ (δ : ℝ),
+            0 < δ →
+              ∃ C,
+                ∀ x ∈ AIM272Unusable.Γ N.toRxn o,
+                  ↑(AIM272.Network.stateFactorial x) * N.normalizedOccupation o x ≤
+                    ↑C *
+                      ENNReal.ofReal
+                        (Real.exp (δ * ↑(AIM272.Network.radius x) * Real.log (2 + ↑(AIM272.Network.radius x))))
